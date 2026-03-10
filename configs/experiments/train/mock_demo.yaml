@@ -1,0 +1,20 @@
+_base_:
+  - ../../base/runtime.yaml
+  - ../../base/train.yaml
+  - ../../base/eval.yaml
+  - ../../base/model.yaml
+  - ../../datasets/mock_small.yaml
+  - ../../tasks/lineage_classification.yaml
+
+experiment:
+  name: mock_demo_train
+
+training:
+  epochs: 2
+  batch_size: 2
+
+evaluation:
+  batch_size: 2
+  metrics:
+    - accuracy
+    - macro_f1

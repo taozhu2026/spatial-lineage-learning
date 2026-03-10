@@ -1,0 +1,15 @@
+_base_:
+  - ../../experiments/train/mock_demo.yaml
+  - ../../base/eval.yaml
+
+experiment:
+  name: mock_demo_eval
+
+evaluation:
+  split: test
+  batch_size: 2
+  metrics:
+    - accuracy
+    - macro_f1
+    - spatial_coherence
+  checkpoint_path: experiments/mock_demo_train/checkpoints/best.json

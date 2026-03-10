@@ -7,7 +7,7 @@ __pycache__/
 .python-version
 dist/
 build/
-experiments/
+/experiments/
 .mypy_cache/
 .ruff_cache/
 .DS_Store

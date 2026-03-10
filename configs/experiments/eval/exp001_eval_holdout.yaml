@@ -1,0 +1,10 @@
+_base_:
+  - ../../experiments/train/exp001_st_ln_transformer.yaml
+  - ../../base/eval.yaml
+
+experiment:
+  name: exp001_eval_holdout
+
+evaluation:
+  split: test
+  checkpoint_path: experiments/exp001_st_ln_transformer/checkpoints/best.json

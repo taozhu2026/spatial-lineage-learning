@@ -1,0 +1,18 @@
+_base_:
+  - ../../base/runtime.yaml
+  - ../../base/train.yaml
+  - ../../base/eval.yaml
+  - ../../base/model.yaml
+  - ../../datasets/visium_lineage.yaml
+  - ../../tasks/lineage_classification.yaml
+
+experiment:
+  name: exp001_st_ln_transformer
+
+model:
+  hidden_dim: 384
+  num_layers: 8
+
+training:
+  batch_size: 8
+  learning_rate: 1.0e-4

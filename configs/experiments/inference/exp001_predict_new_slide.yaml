@@ -1,0 +1,11 @@
+_base_:
+  - ../../experiments/train/exp001_st_ln_transformer.yaml
+  - ../../base/inference.yaml
+
+experiment:
+  name: exp001_predict_new_slide
+
+inference:
+  checkpoint_path: experiments/exp001_st_ln_transformer/checkpoints/best.json
+  input_path: data/visium/new_slide.h5ad
+  output_dir: experiments/exp001_predict_new_slide/inference
