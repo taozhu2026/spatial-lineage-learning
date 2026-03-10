@@ -1,0 +1,9 @@
+required_sections:
+  - runtime
+  - experiment
+  - training
+  - model
+  - data
+  - dataset
+  - task
+  - loss

@@ -1,0 +1,9 @@
+data:
+  reader: anndata
+  expression_key: X
+  spatial_key: spatial
+  clone_key: clone_id
+  label_key: lineage_label
+  split_key: split
+  normalize_expression: true
+  log1p: true

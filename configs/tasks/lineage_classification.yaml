@@ -1,0 +1,8 @@
+task:
+  name: lineage_classification
+  target_type: multiclass
+  num_classes: 2
+
+loss:
+  name: clone_aware_ce
+  label_smoothing: 0.05

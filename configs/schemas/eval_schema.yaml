@@ -1,0 +1,7 @@
+required_sections:
+  - runtime
+  - experiment
+  - model
+  - data
+  - dataset
+  - evaluation

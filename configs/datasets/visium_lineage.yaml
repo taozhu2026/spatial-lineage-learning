@@ -1,0 +1,8 @@
+_base_:
+  - ../base/data.yaml
+
+dataset:
+  name: spatial_lineage_dataset
+  train_path: data/visium/train.h5ad
+  val_path: data/visium/val.h5ad
+  test_path: data/visium/test.h5ad

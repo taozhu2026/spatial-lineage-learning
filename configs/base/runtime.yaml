@@ -1,0 +1,5 @@
+runtime:
+  seed: 42
+  output_root: experiments
+  device: cpu
+  precision: fp32

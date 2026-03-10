@@ -1,0 +1,8 @@
+task:
+  name: multi_task
+  target_type: mixed
+  num_classes: 4
+
+loss:
+  name: clone_aware_ce
+  label_smoothing: 0.05

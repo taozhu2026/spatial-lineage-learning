@@ -1,0 +1,9 @@
+inference:
+  batch_size: 32
+  output_format: parquet
+  save_embeddings: true
+  save_lineage_scores: true
+  save_attention_maps: false
+
+predictor:
+  name: lineage_score_predictor

@@ -1,0 +1,8 @@
+task:
+  name: trajectory_regression
+  target_type: regression
+  num_classes: 1
+
+loss:
+  name: clone_aware_ce
+  label_smoothing: 0.0

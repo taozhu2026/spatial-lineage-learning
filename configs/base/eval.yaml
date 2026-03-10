@@ -1,0 +1,12 @@
+evaluation:
+  split: val
+  batch_size: 32
+  metrics:
+    - accuracy
+    - macro_f1
+    - auroc
+    - spatial_coherence
+  save_predictions: true
+
+predictor:
+  name: lineage_score_predictor
